@@ -1,22 +1,22 @@
 // Your code here
 
 class Calculator {
-  constructor() {
-    this.total = 0;
-  }
+	constructor() {
+		this.total = 0;
+	}
 
-  add(num) {
-    return (this.total += num);
-  }
-  subtract(num) {
-    return (this.total -= num);
-  }
-  multiply(num) {
-    return (this.total *= num);
-  }
-  divide(num) {
-    return (this.total /= nu);
-  }
+	add(num) {
+		return (this.total += num);
+	}
+	subtract(num) {
+		return (this.total -= num);
+	}
+	multiply(num) {
+		return (this.total *= num);
+	}
+	divide(num) {
+		return (this.total /= num);
+	}
 }
 
 let calculator = new Calculator();
@@ -30,7 +30,7 @@ console.log(calculator.total); // => 30
 /***************** DO NOT MODIFY ANYTHING UNDER THIS LINE ********************/
 
 try {
-  module.exports = Calculator;
+	module.exports = Calculator;
 } catch {
-  module.exports = null;
+	module.exports = null;
 }
